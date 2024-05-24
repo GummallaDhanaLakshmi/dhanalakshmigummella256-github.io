@@ -1,0 +1,504 @@
+*
+{
+    margin:0;
+    padding:0;
+    font-family: 'poppins', 'sans-serif';
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #080808;
+    color:#fff;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+#header 
+{
+    width:100%;
+    height:100vh;
+    background-image: url("C:\Users\DELL\Documents\html&css\cutie.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#header img
+{
+    position: relative;
+    left: 70%;
+    top:80px;
+    width:300px;
+    height: 400px;
+}
+.container
+{
+    padding:10px 10%;
+}
+nav img
+{
+    bottom:780px;
+    position: relative;
+    width:150px;
+    height:120px;
+    
+}
+nav ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+nav ul li
+{
+    display: inline-block;
+    list-style-type: none;
+    margin: 10px 20px;
+    bottom: 867px;
+    position: relative;
+    left:400px;
+}
+nav ul li a
+{
+    color:#fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul li a::after
+{
+    content: '';
+    width:0;
+    height:3px;
+    background: #ff004f;
+    position: absolute;
+    left:0;
+    bottom:-6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after
+{
+    width:100%;
+}
+.header-text
+{
+    bottom:700px;
+    position: relative;
+}
+.header-text h1
+{
+    font-size: 60px;
+}
+.header-text h1 span
+{
+    color:#ff004f;
+}
+#about
+{
+    padding:80px 0;
+    color: #ababab;
+}
+.row
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col1
+{
+    flex-basis: 35%;
+}
+.about-col1 img
+{
+    width:350px;
+    height:380px;
+    bottom:590px;
+    position:relative;
+    border:2px solid;
+    border-radius: 15px;
+    border-color: #ababab;
+}
+.about-col2
+{
+    flex-basis: 50%;
+    bottom:550px;
+    right:100px;
+    position: relative;
+}
+.sub-title
+{
+    font-size: 60px;
+    font-weight:600;
+    color:#fff;
+}
+#tab-titles h1
+{
+    bottom:550px;
+    position: relative;
+    text-align: center;
+    margin-left: 500px;
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+    
+}
+.font
+{
+    bottom:540px;
+    position: relative;
+    width:200%;
+    height:3px;
+    border:0 none;
+    display: inline-block;
+    background: #ff004f;
+}
+.sub ul li
+{
+    bottom:500px;
+    position: relative;
+    text-align: center;
+    list-style-type: none;
+    padding:5px 30px;
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 90px;   
+}
+.sub ul li span
+{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+.sub ul li
+{
+    border: 2px solid;
+    border-radius: 10px;
+    color:#ababab;
+    background-color:#0f0e0e;
+    box-sizing: border-box;
+    box-shadow: #b24e4e;
+}
+.sub ul li h4
+{
+    color: rgb(37, 215, 238);
+    font-size: 15px;
+}
+.tab-contents h1
+{
+    bottom:400px;
+    position: relative;
+    text-align: center;
+    margin-left: 50px;
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+.font1
+{
+    bottom:380px;
+    position: relative;
+    width:108%;
+    height:3px;
+    border:0 none;
+    display: inline-block;
+    background: #ff004f;
+}
+.sub1 ul li
+{
+    bottom:350px;
+    position: relative;
+    text-align: center;
+    list-style-type: none;
+    padding:5px 30px;
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 350px; 
+}
+.sub1 ul li span
+{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+.sub1 ul li h4
+{
+    color: rgb(37, 215, 238);
+    font-size: 15px;
+}
+.sub1 ul li
+{
+    border: 2px solid;
+    border-radius: 10px;
+    color:#ababab;
+    background-color:#0f0e0e;
+    box-sizing: border-box;
+    box-shadow: #b24e4e;
+}
+.tab-content h1
+{
+    bottom:240px;
+    position: relative;
+    text-align: center;
+    margin-left: 50px;
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+.font2
+{
+    bottom:220px;
+    position: relative;
+    width:108%;
+    height:3px;
+    border:0 none;
+    display: inline-block;
+    background: #ff004f;
+}
+.sub2 ul li
+{
+    bottom:200px;
+    position: relative;
+    text-align: center;
+    list-style-type: none;
+    padding:5px 30px;
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 20px; 
+}
+.sub2 ul li h3
+{
+    color: #fff;
+    font-size: 19px;
+}
+.sub2 ul li
+{
+    border: 2px solid;
+    border-radius: 10px;
+    color:#ababab;
+    background-color:#0f0e0e;
+    box-sizing: border-box;
+    box-shadow: #b24e4e;
+}
+.sub2 ul li h4
+{
+    color: rgb(37, 215, 238);
+    
+}
+#project h1
+{
+    bottom:130px;
+    position: relative;
+    text-align: center;
+    margin-left: 50px;
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+.font3
+{
+    bottom:120px;
+    position: relative;
+    width:90%;
+    height:4px;
+    border:0 none;
+    display: inline-block;
+    background: #ff004f;
+    margin-left: 120px;
+}
+#project
+{
+    padding:80px 0;
+    color: #ababab;
+}
+.content h2
+{
+    top: 80px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left:360px;
+    position: relative
+    
+}
+.image
+{
+    flex-basis: 35%;
+}
+.image img
+{
+    width:300px;
+    height:300px;
+    top:-150px;
+    position:relative;
+    border:2px solid;
+    border-radius: 15px;
+    border-color: #ababab;
+    flex-basis: 50%;
+    left:900px;
+    position: relative;
+    
+
+}
+.content h4
+{
+    margin-left:310px;
+    position: relative;
+    position: absolute;
+    color: rgb(37, 215, 238);
+    top:2320px;
+}
+.content h3
+{
+    top: 370px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left:360px;
+    position: relative;
+    font-size: 21px;
+}
+.content h5
+{
+    top: 380px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left:330px;
+    position: relative;
+    font-size: 15px;
+    color: rgb(37, 215, 238);
+}
+.frontend img
+{
+    width:300px;
+    height:200px;
+    margin-left: 250px;
+    border: 2px solid;
+    color:aliceblue;
+    border-radius: 20px;
+}
+.font4 h1
+{
+    top:-190px;
+    position: relative;
+    left: 30px;
+}
+.font4 h2
+{
+    top:-150px;
+    position: relative;
+    left:250px;
+    color: rgb(37, 215, 238);
+}
+.contact-left
+{
+    flex-basis: 35%;
+}
+.contact-right
+{
+    flex-basis: 60%;
+}
+.content-left p
+{
+    margin-top:30px;
+}
+.content-left p i
+{
+    color:#ff004f;
+    margin-right: 15px;
+    font-size:25px;
+}
+.social-icons
+{
+    margin-top:30px;
+}
+.social-icons a
+{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color:#ababab;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.social-icons a:hover
+{
+    color:#ff004f;
+    transform: translateY(-5px);
+}
+.content-left button
+{
+    display: inline-block;
+    background: #ff004f;
+    border: 2px #ff004f;
+    border-radius: 6px;
+    width:150px;
+    height: 40px;
+    cursor: pointer;
+    top: 20px;
+    position: relative;
+    font-size: 15px;
+    font-weight: 100;
+    color: #fff;
+    padding: 6px 0;
+    
+}
+.contact-right form
+{
+    width:100%;
+}
+form input, form textarea
+{
+    width:80%;
+    border:0;
+    outline:none;
+    background: #262626;
+    padding:15px;
+    margin: 10px 0;
+    color:#fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+.content-right button
+{
+    display: inline-block;
+    background: #ff004f;
+    border: 2px #ff004f;
+    border-radius: 6px;
+    width:150px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 6px;
+    font-size: 15px;
+    font-weight: 100;
+    color: #fff;
+}
+.copy-right p
+{
+    top:40px;
+    position: relative;
+}
+@media only screen and (max-width:600px)
+{
+    #header image
+    {
+        bottom:90px;
+        left:30px;
+        position: relative;
+    }
+    .sub-title
+    {
+        font-size: 90px;
+        right: 250px;
+        position: relative;
+    }
+}
+
+
+
+
+
+    
